@@ -1,0 +1,115 @@
+body {
+     font-family: "Palatino Linotype";
+     background-color: #6e6b6b;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 50px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change background color */
+    padding: 8px 20px;
+  }
+
+.navbar-logo {
+    color: white; /* Change logo text color */
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+.navbar-buttons {
+    display: flex;
+  }
+
+.navbar-button {
+margin-right: 15px;
+color: white; /* Change button text color */
+text-decoration: none;
+font-weight: bold;
+}
+.exercise-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.exercise-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:content; 
+    min-height: 250px; 
+}
+
+.exercise-item img {
+    max-width: 70%;
+    max-height: 80% 
+    margin-bottom: 20px;
+    border: 10px solid #ccc; /* Add a border style with color of your choice */
+    border-radius: 5px;
+}
+.underline {
+    text-decoration: underline;
+}
+.trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display in three columns */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px; /* Add margin at the top */
+}
+.trainer-item img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+    border: 8px solid black;
+    border-radius: 2px;
+}
+.trainer-item img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+}
+.exercise-item img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+}
+footer{
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  margin-top: auto;
+}
